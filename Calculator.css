@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(6222603.jpg);
+}
+.Calculator
+{   
+    height: 25.2cm;
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+}
+#input::-webkit-inner-spin-button, 
+#input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#input
+{
+    margin-top: 20px;
+    width: 800px;
+    height: 150px;
+    font-size: 100px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media(max-width:767px) and (min-width:616px){
+   #input{
+      width: 400px;
+      height: 100px;
+      font-size: 80px;
+   }   
+  }
+  @media(max-width:617px) and (min-width:476px){
+   #input{
+      width: 300px;
+      height: 80px;
+      font-size: 60px;
+   }
+  }
+  @media(max-width:476px) and (min-width:368px){
+   #input{
+      width: 200px;
+      height: 60px;
+      font-size: 40px;
+   }  
+  }
+  @media(max-width:367px) and (min-width:0px){
+   #input{
+      width: 100px;
+      height: 40px;
+      font-size: 20px;
+   }     
+  }
+
+.btn
+{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 80px;
+    font-size: 50px;
+}
+@media(max-width:767px) and (min-width:616px){
+ .btn{
+    width: 100px;
+    height: 100px;
+ }   
+}
+@media(max-width:617px) and (min-width:476px){
+   .btn{
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+   }   
+  }
+@media(max-width:476px) and (min-width:368px){
+   .btn{
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+   }   
+  }
+@media(max-width:367px) and (min-width:0px){
+   .btn{
+      width: 30px;
+      height: 30px;
+      font-size: 10px;
+   }   
+  }
+#F1
+{
+background-color: orange;
+}
+#F2
+{
+background-color: orange;
+}
+#F3
+{
+background-color: orange;
+}
+#F4
+{
+background-color: orange;
+}
+#F5
+{
+background-color: orange;
+}
+#F6
+{
+background-color: orange;
+}
+#F7
+{
+background-color: orange;
+}
+#F8
+{
+background-color: orange;
+}
+#F9
+{
+background-color: orange;
+}
+#F10
+{
+background-color: orange;
+}
+#F11
+{
+background-color: orange;
+}
+#F12
+{
+background-color: orange;
+}
+#F13
+{
+background-color: orange;
+}
+#Zero
+{
+    width: 283px;
+}
+@media(max-width:767px) and (min-width:616px){
+   #Zero{
+      width: 220px;
+   }   
+  }
+  @media(max-width:615px) and (min-width:476px){
+   #Zero{
+      width: 167px;
+      font-size: 30px;
+   }   
+  }
+  @media(max-width:476px) and (min-width:368px){
+   #Zero{
+      width: 125px;
+      font-size: 20px;
+   }   
+  }
+  @media(max-width:367px) and (min-width:0px){
+   #Zero{
+      width: 84px;
+      font-size: 15px;
+   }   
+}
