@@ -30,30 +30,30 @@ body{
 }
 @media(max-width:767px) and (min-width:616px){
    #input{
-      width: 400px;
-      height: 100px;
-      font-size: 80px;
+      width: 560px;
+      height: 80px;
+      font-size: 75px;
    }   
   }
   @media(max-width:617px) and (min-width:476px){
    #input{
-      width: 300px;
-      height: 80px;
-      font-size: 60px;
+      width: 460px;
+      height: 60px;
+      font-size: 55px;
    }
   }
   @media(max-width:476px) and (min-width:368px){
    #input{
-      width: 200px;
-      height: 60px;
-      font-size: 40px;
+      width: 350px;
+      height: 40px;
+      font-size: 35px;
    }  
   }
   @media(max-width:367px) and (min-width:0px){
    #input{
-      width: 100px;
-      height: 40px;
-      font-size: 20px;
+      width: 250px;
+      height: 20px;
+      font-size: 15px;
    }     
   }
 
